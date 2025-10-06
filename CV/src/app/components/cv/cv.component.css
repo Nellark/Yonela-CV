@@ -1,0 +1,384 @@
+/* Professional CV Styles - Orange & Navy Blue Edition (Print-Safe) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #f5f5f5;
+  }
+  .qr-code {
+    margin-top: 50px;
+  }
+  
+  .cv-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    background: linear-gradient(180deg, #0C2D57 0%, #1E4174 100%);
+    color: #ffffff;
+    padding: 30px 25px;
+  }
+  
+  .sidebar h2 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #F26A21;
+    color: #ffffff;
+  }
+  
+  .sidebar h3 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #f7b58f;
+  }
+  
+  .sidebar p,
+  .sidebar li {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #f3f6fa;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+  }
+  
+  .sidebar ul li {
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .sidebar ul li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Philosophy Section */
+  .philosophy {
+    margin: 40px auto;
+  }
+  
+  .philosophy p {
+    font-style: italic;
+    font-size: 13px;
+    color: #f7b58f;
+  }
+  
+  /* Strengths Section */
+  .strengths {
+    margin-bottom: 30px;
+  }
+  
+  .strength {
+    margin-bottom: 20px;
+  }
+  
+  .strength .icon {
+    font-size: 20px;
+    color: #F26A21;
+    margin-right: 8px;
+  }
+  
+  /* Skills Section */
+  .skills ul li {
+    padding: 8px 0;
+    font-size: 11.5px;
+  }
+  
+  /* Main Content Styling */
+  .main {
+    padding: 40px 45px;
+    background: #ffffff;
+  }
+  
+  header {
+    border-bottom: 3px solid #0C2D57;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #0C2D57;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+  }
+  
+  header h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #F26A21;
+    margin-bottom: 15px;
+  }
+  
+  .contact {
+    font-size: 12px;
+    color: #5a6c7d;
+    line-height: 1.8;
+  }
+  
+  .contact p {
+    margin: 3px 0;
+  }
+  
+  .qr-code {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #0C2D57;
+    padding: 5px;
+    background: #ffffff;
+  }
+  
+  /* Section Headings */
+  .main h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0C2D57;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 25px 0 15px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #F26A21;
+  }
+  
+  /* Summary Section */
+  .summary p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #3d4852;
+    text-align: justify;
+  }
+  
+  /* Education Section */
+  .education {
+    margin-bottom: 25px;
+  }
+  
+  .edu-item {
+    margin-bottom: 20px;
+  }
+  
+  .edu-item h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1E4174;
+    margin-bottom: 5px;
+  }
+  
+  .edu-item .job-details {
+    font-size: 12px;
+    color: #5a6c7d;
+    margin-bottom: 8px;
+    font-style: italic;
+  }
+  
+  .edu-item ul {
+    margin-left: 20px;
+    margin-top: 8px;
+  }
+  
+  .edu-item ul li {
+    font-size: 12px;
+    color: #3d4852;
+    line-height: 1.6;
+    margin-bottom: 4px;
+  }
+  
+  /* Experience Section */
+  .experience {
+    margin-bottom: 25px;
+  }
+  
+  .job {
+    margin-bottom: 20px;
+    page-break-inside: avoid;
+  }
+  
+  .job h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1E4174;
+    margin-bottom: 5px;
+  }
+  
+  .job-details {
+    font-size: 12px;
+    color: #5a6c7d;
+    margin-bottom: 8px;
+    font-style: italic;
+  }
+  
+  .location {
+    float: right;
+    color: #F26A21;
+  }
+  
+  .job ul {
+    margin-left: 20px;
+    margin-top: 8px;
+  }
+  
+  .job ul li {
+    font-size: 12px;
+    color: #3d4852;
+    line-height: 1.6;
+    margin-bottom: 5px;
+  }
+  
+  /* References Section */
+  .references ul {
+    list-style: none;
+    margin-left: 0;
+  }
+  
+  .references ul li {
+    font-size: 12px;
+    color: #3d4852;
+    padding: 8px 0;
+    border-bottom: 1px solid #f3f6fa;
+  }
+  
+  .references ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .references strong {
+    color: #1E4174;
+    font-weight: 600;
+  }
+  
+  /* Download Button */
+  button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #F26A21;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+    z-index: 1000;
+  }
+  
+  button:hover {
+    background: #0C2D57;
+  }
+  
+  /* Print Styles - Ensures colors are preserved */
+  @media print {
+    @page {
+      margin: 0.5cm;
+      size: A4;
+    }
+  
+    body {
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+      color-adjust: exact;
+    }
+  
+    .cv-container {
+      box-shadow: none;
+      margin: 0;
+      max-width: 100%;
+    }
+  
+    button {
+      display: none !important;
+    }
+  
+    .sidebar {
+      background: linear-gradient(180deg, #0C2D57 0%, #1E4174 100%) !important;
+      print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+    }
+  
+    .sidebar h2,
+    .sidebar h3,
+    .sidebar p,
+    .sidebar li {
+      color: #ffffff !important;
+    }
+  
+    header h1 {
+      color: #0C2D57 !important;
+    }
+  
+    header h3 {
+      color: #F26A21 !important;
+    }
+  
+    .main h2 {
+      color: #0C2D57 !important;
+      border-bottom-color: #F26A21 !important;
+    }
+  
+    .edu-item h3,
+    .job h3 {
+      color: #1E4174 !important;
+    }
+  
+    .job {
+      page-break-inside: avoid;
+    }
+  
+    .qr-code {
+      border-color: #0C2D57 !important;
+    }
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 900px) {
+    .cv-container {
+      grid-template-columns: 1fr;
+      margin: 10px;
+    }
+  
+    .sidebar {
+      padding: 25px 20px;
+    }
+  
+    .main {
+      padding: 30px 25px;
+    }
+  
+    button {
+      position: static;
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    .qr-code {
+      position: static;
+      margin: 15px auto;
+      display: block;
+    }
+  }
+  
