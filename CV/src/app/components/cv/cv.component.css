@@ -10,20 +10,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #2c3e50;
-    background-color: #f5f5f5;
-  }
-  .qr-code {
-    margin-top: 50px;
+    background-color: #efefef;
   }
   
   .cv-container {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 20px auto;
     background: #ffffff;
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 250px 1fr;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     position: relative;
+   
   }
   
   /* Sidebar Styling */
@@ -83,28 +81,30 @@
   
   /* Strengths Section */
   .strengths {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+   
   }
   
   .strength {
     margin-bottom: 20px;
-  }
   
-  .strength .icon {
-    font-size: 20px;
-    color: #F26A21;
-    margin-right: 8px;
   }
   
   /* Skills Section */
   .skills ul li {
     padding: 8px 0;
     font-size: 11.5px;
+  
   }
+  .skills{
+    margin: 60px auto;
+
+  }
+
   
   /* Main Content Styling */
   .main {
-    padding: 40px 45px;
+    padding: 40px 15px;
     background: #ffffff;
   }
   
@@ -149,6 +149,7 @@
     border: 2px solid #0C2D57;
     padding: 5px;
     background: #ffffff;
+    margin: 100px auto;
   }
   
   /* Section Headings */
@@ -173,7 +174,7 @@
   
   /* Education Section */
   .education {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
   
   .edu-item {
@@ -197,6 +198,7 @@
   .edu-item ul {
     margin-left: 20px;
     margin-top: 8px;
+  
   }
   
   .edu-item ul li {
@@ -209,6 +211,7 @@
   /* Experience Section */
   .experience {
     margin-bottom: 25px;
+    margin-top: 40px;
   }
   
   .job {
