@@ -209,10 +209,7 @@
   }
   
   /* Experience Section */
-  .experience {
-    margin-bottom: 25px;
-    margin-top: 40px;
-  }
+
   
   .job {
     margin-bottom: 20px;
@@ -297,7 +294,7 @@
   /* Print Styles - Ensures colors are preserved */
   @media print {
     @page {
-      margin: 0.5cm;
+      margin: 0.65cm;
       size: A4;
     }
   
